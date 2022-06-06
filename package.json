@@ -1,0 +1,38 @@
+{
+  "name": "@sxwy/semantic-release-template",
+  "version": "1.0.0",
+  "description": "semantic-release-template",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "pre-commit": "lint-staged",
+    "release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sxwy/semantic-release-template.git"
+  },
+  "keywords": [
+    "semantic-release"
+  ],
+  "author": "chenjie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sxwy/semantic-release-template/issues"
+  },
+  "homepage": "https://github.com/sxwy/semantic-release-template#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@sxwy/commitlint-config": "^1.0.0",
+    "@sxwy/eslint-config-base": "^1.0.0",
+    "@sxwy/prettier-config": "^1.0.0",
+    "@sxwy/stylelint-config": "^1.0.0",
+    "eslint": "^8.17.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.0",
+    "prettier": "^2.6.2",
+    "semantic-release": "^17.3.1",
+    "stylelint": "^14.8.5"
+  }
+}

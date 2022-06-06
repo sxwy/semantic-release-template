@@ -1,0 +1,24 @@
+name: publish
+
+on:
+  push:
+    branches:
+      - master
+      - beta
+      - next
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Install 🔧
+        run: yarn
+
+      - name: PUBLISH 🚀
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: yarn release
