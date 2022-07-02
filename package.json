@@ -1,6 +1,6 @@
 {
   "name": "@sxwy/semantic-release-template",
-  "version": "1.0.0",
+  "version": "1.1.0-beta.1",
   "description": "semantic-release-template",
   "main": "index.js",
   "scripts": {
@@ -22,17 +22,17 @@
   },
   "homepage": "https://github.com/sxwy/semantic-release-template#readme",
   "devDependencies": {
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/git": "^9.0.0",
-    "@sxwy/commitlint-config": "^1.0.0",
-    "@sxwy/eslint-config-base": "^1.0.0",
-    "@sxwy/prettier-config": "^1.0.0",
-    "@sxwy/stylelint-config": "^1.0.0",
-    "eslint": "^8.17.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@sxwy/commitlint-config": "^1.2.0",
+    "@sxwy/eslint-config-base": "^1.5.0",
+    "@sxwy/prettier-config": "^1.4.0",
+    "@sxwy/stylelint-config": "^1.4.0",
+    "eslint": "^8.19.0",
     "husky": "^8.0.1",
-    "lint-staged": "^13.0.0",
-    "prettier": "^2.6.2",
-    "semantic-release": "^17.3.1",
-    "stylelint": "^14.8.5"
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "semantic-release": "^19.0.3",
+    "stylelint": "^14.9.1"
   }
 }
