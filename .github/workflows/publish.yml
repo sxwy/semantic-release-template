@@ -10,14 +10,18 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
+      - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Install 🔧
-        run: yarn
+      - name: UseNode
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
 
-      - name: PUBLISH 🚀
+      - name: Publish
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: yarn release
+        run: |
+          yarn
+          yarn release
