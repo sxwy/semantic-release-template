@@ -1,6 +1,6 @@
 {
   "name": "@sxwy/semantic-release-template",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "semantic-release-template",
   "main": "index.js",
   "scripts": {
