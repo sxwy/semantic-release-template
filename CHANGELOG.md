@@ -1,3 +1,10 @@
+## [1.2.1-beta.1](https://github.com/sxwy/semantic-release-template/compare/v1.2.0...v1.2.1-beta.1) (2023-09-06)
+
+
+### Bug Fixes
+
+* 文档补充 ([4197c16](https://github.com/sxwy/semantic-release-template/commit/4197c16b1a29cdbd31ae683e383adb0c3035ab35))
+
 # [1.2.0](https://github.com/sxwy/semantic-release-template/compare/v1.1.0...v1.2.0) (2022-07-03)
 
 
